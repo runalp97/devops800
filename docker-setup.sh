@@ -1,10 +1,10 @@
 #!/bin/bash
 
-yum install docker -y
+sudo yum install docker -y
 
-systemctl start docker
+sudo systemctl start docker
 
-systemctl status docker
+sudo systemctl status docker
 
 docker --version
 
