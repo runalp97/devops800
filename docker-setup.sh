@@ -1,3 +1,4 @@
+chmod +x docker-setup.sh
 #!/bin/bash
 
 sudo yum install docker -y
