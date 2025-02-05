@@ -1,5 +1,9 @@
-chmod +x docker-setup.sh
 #!/bin/bash
+# Ensure that the docker-setup.sh script is executable
+chmod +x ./docker-setup.sh
+
+# Now run the script
+./docker-setup.sh
 
 sudo yum install docker -y
 
